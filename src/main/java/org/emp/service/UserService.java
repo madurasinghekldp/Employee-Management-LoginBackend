@@ -4,5 +4,5 @@ import org.emp.dto.User;
 
 public interface UserService {
     boolean login(User user);
-    String register(User user);
+    User register(User user);
 }
